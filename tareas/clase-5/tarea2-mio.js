@@ -6,7 +6,7 @@
 // Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"!
 
 
-function cambiarNombre(){
+function cambiarTitulo(){
     const titulo = document.querySelector("h1")
     const primerNombre = document.querySelector('#primer-nombre').value
     titulo.textContent = `Bienvenido ${primerNombre}`
@@ -28,7 +28,7 @@ let resumen = document.querySelector('#datos-usuario')
 resumen.onclick = function(){
 
 
-    cambiarNombre()
+    cambiarTitulo()
     crearTexto()
 
     return false
